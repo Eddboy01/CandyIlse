@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -6,10 +8,10 @@
 body {
   min-height: 100vh;
   line-height: 1.7;
-
+  font-family: "Raleway", sans-serif;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 0.8fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-template-areas:
     "main main main navigation"
     "main main main img-cont"
@@ -23,7 +25,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #abe089;
+  background-color: #beebe9;
 }
 .navigation ul li {
   float: left;
@@ -34,16 +36,30 @@ body {
 /* MAIN LANDING SECTION */
 .main {
   grid-area: main;
-  display: flex;
-  align-content: center;
-  justify-content: center;
-  font-size: 1rem;
-}
 
+  color: #000;
+  background-color: #f4dada;
+}
+.main .content {
+  padding: 4rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  min-height: 400px;
+}
+/* IMAGE SECTION */
 .aside-img-container {
   grid-area: img-cont;
-  background: url("../img/pile-of-doughnuts-1407346.jpg");
+  background: url("../img/blue-lollipop-1289363.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 footer {
   grid-area: footer;
+  text-align: center;
+  padding: 2rem;
+  background-color: #f6eec7;
 }
