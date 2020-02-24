@@ -8,8 +8,22 @@ body {
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, 1fr);
   grid-template-areas:
-    "main main main navigataion"
+    "main main main navigation"
     "main main main img-cont"
     "main main main img-cont"
     "footer footer footer img-cont";
+}
+.navigation {
+  grid-area: navigation;
+  padding: 1rem;
+}
+.main {
+  grid-area: main;
+}
+.aside-img-container {
+  grid-area: img-cont;
+  background: url("../img/pile-of-doughnuts-1407346.jpg");
+}
+footer {
+  grid-area: footer;
 }
