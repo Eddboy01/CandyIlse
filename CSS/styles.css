@@ -11,7 +11,7 @@ body {
   font-family: "Raleway", sans-serif;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 1fr 1fr 1.5fr 0.5fr;
+  grid-template-rows: 0.5fr 1.5fr 1.5fr 0.5fr;
   grid-template-areas:
     "main main main navigation"
     "main main main img-cont"
@@ -36,7 +36,7 @@ body {
 /* MAIN LANDING SECTION */
 .main {
   grid-area: main;
-  overflow-y: scroll;
+  overflow-y: auto;
   color: #000;
   background-color: #f4dada;
 }
