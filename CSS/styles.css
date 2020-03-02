@@ -49,10 +49,14 @@ body {
   align-content: center;
   min-height: 400px;
 }
+
+.main .content p {
+  font-size: 1.3rem;
+}
 /* IMAGE SECTION */
 .aside-img-container {
   grid-area: img-cont;
-  background: url("../img/blue-lollipop-1289363.jpg");
+  background: url("../img/background-bright-candy-chewy-539447.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -61,5 +65,6 @@ footer {
   grid-area: footer;
   text-align: center;
   padding: 2rem;
-  background-color: #f6eec7;
+  background-color: #000;
+  color: #fff;
 }
