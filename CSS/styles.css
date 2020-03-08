@@ -55,6 +55,7 @@ body {
   color: #000;
   background-color: #f4dada;
 }
+
 .main .content {
   padding: 4rem;
   text-align: center;
@@ -64,6 +65,7 @@ body {
   align-content: center;
   min-height: 100%;
 }
+
 .main .content h1 {
   font-size: 2.5rem;
   letter-spacing: 5px;
@@ -89,6 +91,16 @@ body {
 .main .content a:hover {
   background-color: #000;
   color: #f4dada;
+}
+
+@media (max-width: 500px) {
+  .main .content {
+    padding: 2rem;
+  }
+  .main .content h1 {
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+  }
 }
 /* IMAGE SECTION */
 .aside-img-container {
