@@ -18,6 +18,17 @@ body {
     "main main main img-cont"
     "footer footer footer img-cont";
 }
+@media (max-width: 950px) {
+  body {
+    height: 120vh;
+    grid-template-rows: 0.4fr 2.2fr 1fr 0.4fr;
+    grid-template-areas:
+      "navigation navigation navigation navigation"
+      "main main main main"
+      "img-cont img-cont img-cont img-cont"
+      "footer footer footer footer";
+  }
+}
 /* NAVIGATION SECTION  */
 .navigation {
   grid-area: navigation;
