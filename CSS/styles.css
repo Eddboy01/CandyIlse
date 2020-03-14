@@ -102,6 +102,23 @@ body {
     letter-spacing: 1px;
   }
 }
+
+.main .mission-section {
+  padding: 2rem;
+  min-height: 300px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.main .mission-section .box {
+  margin: 0 40px;
+}
+.main .mission-section .box i {
+  margin-bottom: 30px;
+}
+.main .mission-section .box h3 {
+  font-size: 1rem;
+}
 /* IMAGE SECTION */
 .aside-img-container {
   grid-area: img-cont;
