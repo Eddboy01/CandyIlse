@@ -151,7 +151,26 @@ body {
   background-position: center;
   background-size: cover;
 }
-
+/* MESSAGE SECTION */
+.main .message-section {
+  padding: 3rem;
+}
+.main .message-section h2 {
+  margin-bottom: 10px;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+}
+.main .message-section p {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+.main .message-section .msg-btn {
+  padding: 1rem;
+  background-color: transparent;
+  border: 2px solid #000;
+  border-top: 2px solid #000;
+  font-size: 1rem;
+}
 /* IMAGE SECTION */
 .aside-img-container {
   grid-area: img-cont;
